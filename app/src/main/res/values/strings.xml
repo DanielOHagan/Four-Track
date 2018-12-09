@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Four Track</string>
+    <string name="go_to_projects_btn">Load Project</string>
+    <string name="add_new_project_btn">Add New Project</string>
+    <string name="text_input_default_title">Input Text Here</string>
+    <string name="alert_project_name_hint">Project Name Here</string>
+    <string name="alert_track_name_hint">Track Name Here</string>
+    <string name="alert_confirm_btn">Confirm</string>
+    <string name="project_item_default_title">Project Title</string>
+    <string name="delete">Delete</string>
+    <string name="add_new_track_btn">Add New Track</string>
+    <string name="project_page_default_title">Project Title</string>
+    <string name="track_name_default">Track Name</string>
+    <string name="play">Play</string>
+    <string name="recording_start">Start Recording</string>
+    <string name="error_alert_end">Press the button below to be taken back to the main menu.</string>
+    <string name="error_alert_start">Oops, looks like there was an error:</string>
+    <string name="play_selected">Play Selected</string>
+    <string name="pause_selected">Pause Selected</string>
+    <string name="track_time_default">00:00</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_delete_text">Are you sure you wish to delete:</string>
+    <string name="stop">Stop</string>
+    <string name="close">Close</string>
+    <string name="settings">Settings</string>
+    <string name="save_name">Save Name</string>
+    <string name="loop">Loop</string>
+    <string name="include_play_selected">Include Track in Play Selected</string>
+    <string name="pause">Pause</string>
+    <string name="project_name_default">Project Name</string>
+    <string name="main_menu_btn">Main Menu</string>
+</resources>

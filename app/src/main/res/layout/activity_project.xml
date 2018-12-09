@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".activities.ProjectActivity">
+
+    <TextView
+        android:id="@+id/projectPageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/project_page_default_title" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/trackRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="359dp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/addNewTrackBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_track_btn" />
+
+
+    <ToggleButton
+        android:id="@+id/playSelectedToggleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="@string/play_selected"
+        android:textOn="@string/pause_selected" />
+
+</LinearLayout>
